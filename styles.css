@@ -1,0 +1,81 @@
+/* Shutterbugg Project Ch.5 
+	Author: David 
+	Date: 05/31/19
+	filename: styles.css
+*/
+
+html {
+	background-color: lightblue;
+}
+
+.container {
+	max-width: 928px;
+}
+
+.main {
+	height: 550px;
+	background-image: url('../images/sbugg_images/intro.jpg');
+	background-size: cover;
+	padding-top: 30px;
+	padding-right: 350px;
+}
+
+.main h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 65px;
+	text-shadow: grey 3px -3px 5px;
+	transition: text-shadow 2s;
+}
+
+.main h1:hover {
+	text-shadow: lightslategrey 6px -4px 2px;
+}
+
+.main h2 {
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 30px;
+}
+
+.main a {
+	font-size: 24px;
+}
+
+.btn {
+	background-color: rgba(249, 220, 184, 0.6);
+	color: rgb(60, 60, 60);
+	border-radius: 40px;
+	transition: background-color 1s;
+}
+
+.btn:hover {
+	background-color: rgb(249, 220, 184);
+}
+
+.section .row {
+	padding-top: 50px;
+}
+
+.row h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.row p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+#store {
+	padding: 50px 10px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.footer {
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+
+.footer ul li {
+	list-style-type: none;
+ 	padding-left: 0px;
+}
